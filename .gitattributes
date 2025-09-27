@@ -1,0 +1,14 @@
+# Prioritize SQL as the main language
+*.sql linguist-detectable=true
+
+# Treat documentation files as docs, not code
+*.md linguist-documentation
+
+# Ignore images in language stats
+*.png linguist-vendored
+*.jpg linguist-vendored
+*.jpeg linguist-vendored
+*.gif linguist-vendored
+
+# Normalize line endings across OS
+* text=auto
